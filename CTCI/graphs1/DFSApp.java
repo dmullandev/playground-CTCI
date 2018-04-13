@@ -17,7 +17,8 @@ public class DFSApp {
         theGraph.addEdge(3, 4);
         
         System.out.println("Visits: ");
-        theGraph.dfs();
+//        theGraph.dfs();
+        theGraph.bfs();
         System.out.println();
     }
 
